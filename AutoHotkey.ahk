@@ -63,3 +63,17 @@ Return
 !+i::SendInput, {U+00CD}    ; Alt+Shift+i = Í
 !+o::SendInput, {U+00D3}    ; Alt+Shift+o = Ó
 !+u::SendInput, {U+00DA}    ; Alt+Shift+u = Ú
+
+; Números
+^!n::Send 1
+^!m::Send 2
+^!,::Send 3
+^!j::Send 4
+^!k::Send 5
+^!l::Send 6
+^!u::Send 7
+^!i::Send 8
+^!o::Send 9
+^!Space::Send 0
+
+

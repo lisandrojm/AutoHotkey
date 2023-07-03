@@ -76,4 +76,16 @@ Return
 ^!o::Send 9
 ^!Space::Send 0
 
+; Varios
+/::Send -
+?::Send _
+-::Send /
+_::Send ?
+&::Send /
+6::Send &
 
+; Remapeo de Ctrl+Shift+L a END
+^+l::Send {End}
+
+; Remapeo de Ctrl+Shift+h a HOME
+^+h::Send {Home}

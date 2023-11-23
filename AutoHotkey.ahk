@@ -34,6 +34,7 @@ Capslock & k::Send {Up}
 ; Remapeo de CapsLock + j a flecha abajo
 Capslock & j::Send {Down}
 
+
 ; Remapeo de CapsLock + Ctrl + h a BACKSPACE
 ^h::Send {Backspace}
 
@@ -65,15 +66,17 @@ Return
 !+u::SendInput, {U+00DA}    ; Alt+Shift+u = Ú
 
 ; Números
-^!n::Send 1
-^!m::Send 2
-^!,::Send 3
+^!m::Send 1
+^!,::Send 2
+^!.::Send 3
 ^!j::Send 4
 ^!k::Send 5
 ^!l::Send 6
 ^!u::Send 7
 ^!i::Send 8
 ^!o::Send 9
+
+
 ^!Space::Send 0
 
 ; Varios
@@ -82,10 +85,10 @@ Return
 -::Send /
 _::Send ?
 &::Send /
-6::Send &
 
 ; Remapeo de Ctrl+Shift+L a END
 ^+l::Send {End}
 
 ; Remapeo de Ctrl+Shift+h a HOME
 ^+h::Send {Home}
+
